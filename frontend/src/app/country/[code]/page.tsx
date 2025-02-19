@@ -149,7 +149,7 @@ function CountryInfo({params}: {params: Promise<{code: string}>}) {
                   <Line
                     type="monotone"
                     dataKey="value"
-                    stroke="hsl(var(--primary))"
+                    stroke="var(--primary)"
                     strokeWidth={2}
                     dot={false}
                     activeDot={{ r: 8 }}
